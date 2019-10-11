@@ -1,6 +1,6 @@
 ## CSS
 
-Мы используем [БЭМ](https://ru.bem.info/methodology/quick-start/)
+Мы используем [БЭМ](https://ru.bem.info/methodology/quick-start/) в международной нотации:
 
 ```css
 .block
@@ -9,15 +9,4 @@
 .block__element--modifier
 ```
 
-```html
-<div class="mail-user">
-    <div class="mail-user__container">
-        <div class="mail-user__name user-red">
-            <span class="user-red__letter">h</span><span class="user-red__other">igimo</span>
-        </div>
-        <span class="mail-user__avatar">
-            <img src="//design.ru.net/200.jpg" />
-        </span>
-    </div>
-</div>
-```
+Элементы обозначаются `__`, модификаторы `--`, схема ключ-значение в модификаторах не используется.
