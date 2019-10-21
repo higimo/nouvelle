@@ -8,6 +8,7 @@
 @import 'blocks/header.css';
 @import 'blocks/logo.css';
 @import 'blocks/navigation.css';
+@import 'blocks/articles.css';
 @import 'blocks/informer.css';
 @import 'blocks/main.css';
 @import 'blocks/links.css';
@@ -17,9 +18,12 @@
 
 :root {
     --color-grey-dark: #273238;
+    --color-grey-darker: #333333;
     --color-grey-medium: #696969;
-    --color-grey-light: #e9eaeb;
-    --color-blue-dark: #0064a4;
-    --color-blue-light: #dff3f4;
-    --color-text-grey-light: #b1b3b6;
+    --color-grey-light: #828282;
+    --color-grey-lighter: #b1b3b6;
+    --color-grey-lightest: #e9eaeb;
+    --color-blue-light: #def3f6;
+    --color-blue-medium: #26649f;
+    --color-green-light: #ddf2ea;
 }
