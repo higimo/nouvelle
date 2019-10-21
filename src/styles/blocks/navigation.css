@@ -55,3 +55,7 @@
 .navigation__link:visited {
     color: inherit;
 }
+
+.navigation__link--disable {
+    opacity: .5;
+}
