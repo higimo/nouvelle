@@ -115,25 +115,25 @@
 
 .navigation__link {
     display: block;
-    color: black;
+    color: rgba(0, 0, 0, .35);
     line-height: 1.2;
     letter-spacing: 0.05em;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-.navigation__link:hover {
+.navigation__link[href] {
+    color: black;
+}
+
+.navigation__link[href]:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
-.navigation__link:link,
-.navigation__link:visited {
+.navigation__link[href]:link,
+.navigation__link[href]:visited {
     color: inherit;
-}
-
-.navigation__link--disable {
-    opacity: .5;
 }
 
 @media (min-width: 500px) {

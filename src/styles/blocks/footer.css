@@ -20,11 +20,11 @@
 /* Links */
 
 .footer__link {
-    color: inherit;
+    color: var(--color-grey-lighter);
 }
 
-.footer__link:link,
-.footer__link:visited {
+.footer__link[href]:link,
+.footer__link[href]:visited {
     color: white;
 }
 
