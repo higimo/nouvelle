@@ -20,7 +20,7 @@
 /* Links */
 
 .footer__link {
-    color: var(--color-grey-lighter);
+    color: inherit;
 }
 
 .footer__link[href]:link,
