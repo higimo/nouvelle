@@ -132,7 +132,7 @@
 }
 
 .navigation__link[href]:link,
-.navigation__link[href]:visited {
+.navigation__link[href] {
     color: inherit;
 }
 
