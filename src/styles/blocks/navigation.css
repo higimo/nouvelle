@@ -85,6 +85,7 @@
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #000000;
+    color: var(--color-grey-lighter);
 }
 
 @media (min-width: 500px) {
@@ -115,7 +116,7 @@
 
 .navigation__link {
     display: block;
-    color: rgba(0, 0, 0, .35);
+    color: inherit;
     line-height: 1.2;
     letter-spacing: 0.05em;
     text-decoration: none;
@@ -127,13 +128,7 @@
 }
 
 .navigation__link[href]:hover {
-    cursor: pointer;
     text-decoration: underline;
-}
-
-.navigation__link[href]:link,
-.navigation__link[href] {
-    color: inherit;
 }
 
 @media (min-width: 500px) {
