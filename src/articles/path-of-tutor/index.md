@@ -1,15 +1,12 @@
 ---
 title: 'Путь наставника'
 date: 2016-06-30
-author:
-    name: 'Максим Усачёв'
-    url: 'https://twitter.com/psyw'
-editor:
-    name: 'Вадима Макеева'
-    url: 'https://twitter.com/pepelsbey'
+author: maxim-usachev
+editors:
+    - vadim-makeev
 layout: article.njk
 tags:
-  - article
+    - article
 ---
 
 Если звезды фронтенда зажигаются, значит, кто-то их зажигает? Кто? Приоткрываем завесу тайны над темой наставничества в вебе.

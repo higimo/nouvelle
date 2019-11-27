@@ -1,20 +1,18 @@
 ---
 title: 'JavaScript: топ тем и фреймворков для изучения в 2019 году'
 date: 2019-01-16
+author: eric-elliot
 source:
     title: 'Top JS frameworks and topics to learn in 2019'
     url: 'https://medium.com/p/b4142f38df20'
-    author: 'Эрик Эллиот'
-translator:
-    name: 'Владислав Почепцов'
-    url: 'https://medium.com/@vlad_poe'
-editor:
-    name: 'Вадим Макеев'
-    url: 'https://twitter.com/pepelsbey'
+translators:
+    - vladislav-pocheptsov
+editors:
+    - vadim-makeev
 layout: article.njk
 tags:
-  - article
-  - js
+    - article
+    - js
 ---
 
 Снова пришло время сделать обзор экосистемы JavaScript за год. Моя цель — определить области и технологии с наивысшим потенциалом для поиска работы. Какие технологии используются? Какие тренды развития существуют? Я не буду говорить _о лучших_, вместо этого предлагаю сфокусироваться на самых востребованных. Тех, которые помогут пройти собеседование и не ударить в грязь лицом, когда интервьюер спросит _«а знаете ли вы ____?»_ (пустую графу заполните сами). Для достижения цели я использую доступные в сети данные.
