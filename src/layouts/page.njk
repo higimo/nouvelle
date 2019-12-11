@@ -9,9 +9,9 @@
     </title>
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
-<body class="page__body">
+<body class="page__body{% if page.url != '/' %} page__body--inner{% endif %}">
     {% include '../images/blob.svg' %}
-    <section class="page__navigation">
+    <div class="page__navigation{% if page.url != '/' %} page__navigation--inner{% endif %} navigation">
         <div class="navigation__logo logo">
             {% if page.url != '/' %}<a class="logo__link" href="/">{% endif %}
                 <img class="logo__icon" src="/images/logo.svg" width="40" height="40" alt="Логотип Веб-стандартов">
@@ -33,7 +33,7 @@
             </button>
             <ul class="navigation__menu" id="navigation-menu">
                 <li class="navigation__item">
-                    <a class="navigation__link" href="/articles/">Статьи</a>
+                    <a class="navigation__link {% if page.url == '/articles/' %}navigation__link--active{% endif %}" href="/articles/">Статьи</a>
                 </li>
                 <li class="navigation__item">
                     <a class="navigation__link">Конференция</a>
@@ -52,10 +52,10 @@
                 </li>
             </ul>
         </nav>
-    </section>
-    <section class="page__content">
+    </div>
+    <div class="page__content{% if page.url != '/' %} page__content--inner{% endif %}">
         {{ content | safe }}
-    </section>
+    </div>
     <script src="/scripts/navigation.js"></script>
 </body>
 </html>

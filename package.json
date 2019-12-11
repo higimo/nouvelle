@@ -19,9 +19,10 @@
     "remark-lint": "^6.0.5",
     "remark-lint-code-block-style": "^1.0.3",
     "remark-lint-emphasis-marker": "^1.0.3",
+    "remark-lint-ordered-list-marker-value": "^1.0.4",
     "remark-lint-strong-marker": "^1.0.3",
     "remark-lint-unordered-list-marker-style": "^1.0.3",
-    "stylelint": "^11.0.0"
+    "stylelint": "^12.0.0"
   },
   "browserslist": [
     "last 2 version",
@@ -32,8 +33,7 @@
     "suppressErrors": [
       "Bad value  for attribute “href” on element “a”: Illegal character in fragment: “#” is not allowed.",
       "Bad value “soft-light” for attribute “mode” on element “feBlend”.",
-      "Element “style” not allowed as child of element “div” in this context.",
-      "The “main” element must not appear as a descendant of the “section” element."
+      "Element “style” not allowed as child of element “div” in this context."
     ]
   },
   "stylelint": {
@@ -171,7 +171,8 @@
     "settings": {
       "emphasis": "_",
       "strong": "**",
-      "bullet": "-"
+      "bullet": "-",
+      "incrementListMarker": "true"
     },
     "plugins": [
       "remark-frontmatter",
@@ -184,6 +185,10 @@
       [
         "remark-lint-unordered-list-marker-style",
         "-"
+      ],
+      [
+        "remark-lint-ordered-list-marker-value",
+        "ordered"
       ],
       [
         "remark-lint-code-block-style",
